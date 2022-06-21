@@ -1,0 +1,182 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #DDF3FC;
+}
+
+#navstart{
+    display: flex;
+    align-items: center;
+    /* gap: 860px; */
+    justify-content: space-between;
+    padding:  20px ;
+    padding-right: 100px;
+}
+
+a{ text-decoration: none;
+}
+
+.navfirst a{
+    color:darkblue;
+    font-size: 15px;
+    /* padding-right: 100px; */
+}
+
+.navfirst a h1{
+padding-left: 80px;
+}
+
+.navsecond {
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     gap: 30px;
+     align-items: center;
+     /* width: 90%; */
+    }
+
+#bodi{
+    background-color: #1f1f61;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    display: flex;
+}
+
+.firstbodi{
+    width: 30%;
+    padding-left: 30px;
+}
+
+.firstbodi  h1{
+    font-size: 50px;
+}
+
+.secondbodi{
+    padding: 50px;
+
+}
+    
+.paragraph1{
+    margin: 2rem 0;
+}
+
+#neck{
+background-color: #FFF;
+width: 60%;
+margin: 4rem auto;
+padding: 3rem 2rem;
+}
+
+.upperneck{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 3rem;
+    line-height: 30px;
+}
+.paragraph2{
+     margin: 10px; 
+}
+
+#stomach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stomach p{
+    margin: 2rem 0;
+    font-size: 20px;
+}
+
+.upperstomach{
+    background-color: rgb(31,66,195);
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    padding: 7rem 0;
+} 
+
+.lowerstomach{
+    width: 100%;
+    background-color: rgb(245,57,120);
+    text-align: center;
+    color: #FFF;
+    padding: 7rem 0;
+}
+
+
+#downline{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* text-align: middle; */
+    margin: 0px 13rem;
+    gap: 10px;
+}
+
+.firstdownline{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.seconddownline{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.thirddownline{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fourthdownline{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#downbottom{
+    background-color: #333333;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+/* @media screen  and ( max-width: ) {
+    
+}
+
+@media screen and (  max-width:  ) {
+
+} */
+
+
+/* 
+@media screen and (max-width: ){
+
+} */
+ 
+/* clone: bring a repository that is hosted on github to your folder on your local machine
+commit: to save changes
+add:track your files and changes in git
+push: to upload your files to github and tracking the changes using the add and 
+       saving it using the commit
+pull: the opposite of push
+pbcopy< ~/test key.pub */
+   
