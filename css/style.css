@@ -1,4 +1,4 @@
-/* css reset */
+css reset
 *{
     margin: 0;
     padding: 0;
@@ -158,25 +158,108 @@ padding: 3rem 2rem;
     margin-top: 50px;
     padding-top: 30px;
 }
-/* @media screen  and ( max-width: ) {
-    
+
+/* Hide the menu icon by default */
+.menu-icon {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;  /* Adjust this value to your preference */
+    top: 20px;   /* Adjust this value to your preference */
 }
 
-@media screen and (  max-width:  ) {
-
-} */
 
 
-/* 
-@media screen and (max-width: ){
 
-} */
- 
-/* clone: bring a repository that is hosted on github to your folder on your local machine
-commit: to save changes
-add:track your files and changes in git
-push: to upload your files to github and tracking the changes using the add and 
-       saving it using the commit
-pull: the opposite of push
-pbcopy< ~/test key.pub */
-   
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    #navstart {
+        flex-direction: column;
+        padding-right: 20px;
+    }
+    
+    .navfirst a h1 {
+        padding-left: 0;
+    }
+    
+    .navsecond {
+        position: absolute;
+        /* top: -100%;
+        right: 0; */
+        right: -310px;
+        top: -0px;
+        flex-direction: column;
+        background-color: rgb(221,243,252);
+        color: white;
+        width: 200px;
+        text-align: center;
+        transition: top 3s ease-in-out;
+        height: 8.5vh;
+    }
+
+    .navsecond.show {
+        left: 380px;
+    }
+
+
+    .menu-icon {
+        display: inline-block;
+    }
+
+    /* Main Body */
+    #bodi {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .firstbodi h1 {
+        font-size: 35px;
+    }
+
+    .secondbodi img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    /* Second Section */
+    #neck {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .upperneck {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    /* Third Section */
+    #stomach h1 {
+        font-size: 40px;
+    }
+
+    .upperstomach, .lowerstomach {
+        padding: 3rem 0;
+    }
+
+    /* Testimonials Section */
+    #downline {
+        flex-direction: column;
+        align-items: center;  /* Updated */
+        justify-content: center;  /* Updated */
+        margin: 2rem auto;
+    }
+
+    .firstdownline, .seconddownline, .thirddownline, .fourthdownline {
+        max-width: 100%;
+    }
+
+    /* Footer */
+    #downbottom {
+        padding: 2rem 1rem;
+    }
+}
